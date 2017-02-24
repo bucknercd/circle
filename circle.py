@@ -119,7 +119,6 @@ while True:
 sort_list = sorted(clist, key=Circle.getRad)
 sort_list.reverse()
 sort_list[0].point = (wstart, hstart)
-
 states = ['w', 'e', 'sw', 'ne', 'se', 'nw']
 
 layer = 0
