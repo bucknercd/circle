@@ -10,7 +10,7 @@ Linux build instructions:
 
     $ sudo apt-get install pip
 
-3. Next you will need to install pygame for the gui.
+3. Next you will need to install pygame for the gui ( for the display of the circles ).
 
     $ sudo pip install pygame
 
@@ -47,7 +47,7 @@ Windows build instructions:
     From the desktop, right-click My Computer and click Properties.
     In the System Properties window, click on the Advanced tab
     In the Advanced section, click the Environment Variables button.
-    Finally, in the Environment Variables window (as shown below), highlight the
+    Finally, in the Environment Variables window, highlight the
     Path variable in the Systems Variable section and click the Edit button.
     Add the python path to the existing path. i.e.  C:\Python27
     Each different directory is separated with a semicolon as shown below.
@@ -55,7 +55,7 @@ Windows build instructions:
     C:\Program Files; C:\Winnt; C:\Winnt\System32; C:\Python27
 
 3. Install pip:  I included a get-pip.py file in my circle folder.
-    Now that python is added to your path: got cmd
+    Now that python is added to your path: goto command prompt
 
     $ python get-pip.py
 
@@ -63,7 +63,7 @@ Windows build instructions:
 
     $ python -m pip install pygame
 
-5. Now you can run program.
+5. Now you can run the program.
 
     $ python circle.py < in.txt
 
