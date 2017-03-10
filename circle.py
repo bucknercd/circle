@@ -9,7 +9,7 @@ class Circle(object):
     dic = {}
 
     def __init__(self, radius, name):
-        self.radius = int(radius) * 3/4
+        self.radius = int(radius) * 3 / 4
         self.diam = self.radius * 2
         self.name = name
         self.point = (-1000, -1000)
@@ -33,7 +33,7 @@ def parse_line(line, clist):
 
 
 def add(center_circ, circ, state, layer, ptDic, snum):
-    mstates = ['n', 's', 'e', 'w']
+    mstates = ['e', 'w']
     key = str(layer) + state
     oldkey = ""
     old_diam = 0
